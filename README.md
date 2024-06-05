@@ -6,7 +6,7 @@ There is sql injection in the background of ITC-ip service broadcasting platform
 
 Certificate of Company assets
 
-![](.\picture\wps1.jpg)
+![]([.\picture\wps1.jpg](https://github.com/chennuo17/cve/blob/main/picture/wps1.jpg))
 
 https://pa.itc-pa.cn/
 
